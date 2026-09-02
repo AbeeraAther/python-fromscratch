@@ -1,0 +1,8 @@
+Name= input("enter your name: ")
+print("hey",Name)
+Age=input("enter your age: ")
+print(Age)
+Semester= input("enter your current semester: ")
+print( Semester)
+City=input("enter your city: ")
+print(City)
