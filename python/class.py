@@ -16,7 +16,7 @@ class Person:
 
 
 P1 = Person("Abeera", 19)
-P2 = Person("Aisha", 17)
+P2 = Person("Amina", 17)
 P1.talk()
 P1.vote()
 P2.talk()
