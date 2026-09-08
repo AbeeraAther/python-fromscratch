@@ -6,7 +6,10 @@ arr = np.array([10, 20, 30, 40, 50])
 print("array in numpy:")
 print(arr*2)
 print(type(arr))
-print(arr.shape)
+print(arr.shape)  
+print(arr.ndim)    
+print(arr.size)    
+print(arr.dtype)  
 
 
 #mathematical operations
@@ -18,5 +21,9 @@ print(arr + 5)
 print(arr - 5)
 print(arr * 2)
 print(arr / 2)
-print(type(arr / 2))
+print(type(arr))
+print(arr.shape) 
+print(arr.ndim)    
+print(arr.size)    
+print(arr.dtype)   
 
