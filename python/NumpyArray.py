@@ -10,7 +10,11 @@ print(arr.shape)
 print(arr.ndim)    
 print(arr.size)    
 print(arr.dtype)  
-
+print(np.sqrt(arr))     
+print(np.sum(arr))      
+print(np.mean(arr))    
+print(np.max(arr))     
+print(np.min(arr)) 
 
 #mathematical operations
 print("Mathematical Operations:")
