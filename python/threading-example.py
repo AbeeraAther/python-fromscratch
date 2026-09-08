@@ -2,16 +2,19 @@ import threading
 
 class MyThread(threading.Thread):
 
-    def task(self):
+    def task1(self):
         for i in range(5):
             print("Thread is running")
 
     def run(self):
-        self.task()
+        self.task1()
 
     def task2(self):
         for i in range(3):
             print("Thread is running")
+
+    def run(self):
+        self.task2()        
 
 t1 = MyThread()
 t2 = MyThread()
